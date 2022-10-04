@@ -1,0 +1,62 @@
+header
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 35vh;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+.avt
+{
+    position: absolute;
+    padding: 30px;
+    display: block;
+    float: left;
+} 
+.avt img
+{
+    position: absolute;
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    float: left;
+}
+header .about
+{
+    position: absolute;
+    display: block;
+    left: 400px;
+    top: 20px;
+    
+}
+header .intro
+{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container
+{
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+.line
+{
+    border-bottom: 1px solid black;
+}
+.container .p1 
+{
+    padding-bottom: 10px;
+}
+.container .p2
+{
+    padding-top: 10px;
+}
+.text
+{
+    font-weight: bold;
+}

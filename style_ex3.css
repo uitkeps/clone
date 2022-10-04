@@ -1,0 +1,61 @@
+body {
+    background: #E5ECF4;
+    font-size: 14px;
+    font-family: sans-serif,Arial,Helvetica;
+}
+.block-views
+{
+    display: block;
+    background: none repeat scroll 0 0 #fdfdfd;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 30px 10px;
+}
+h2
+{
+    border-bottom: 1px solid #e6e6e6;
+    color: #0056e0;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 10px 7px 0;
+    text-transform: uppercase;
+}
+.block-views .item-list ul li {
+    /* background: url(../images/list-style.png) no-repeat 0 4px; */
+    list-style: none;
+    /* padding-left: 0px; */
+    margin: 0 0 5px 0;
+}
+.item-list ul li i 
+{
+    color: red;
+}
+.item-list ul li a{
+    text-decoration: none;
+    color: #08c;
+}
+
+.more-link 
+{
+    display:block;
+    clear: both;
+    line-height: 1.4em;
+    margin-bottom: 1em;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-weight: 600;
+    font-size: 12px;
+    float: right;
+    padding-right: 10px;
+}
+.more-link a {
+    text-transform: none;
+    text-decoration: none;
+    color: #08c;
+}
+.more-link a:after {
+    content: " »";
+}
